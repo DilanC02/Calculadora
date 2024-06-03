@@ -14,3 +14,8 @@ function sumar() {
     const resultado = numero1 + numero2;
     mostrarResultado(resultado);
 }
+function restar() {
+    const { numero1, numero2 } = obtenerValores();
+    const resultado = numero1 - numero2;
+    mostrarResultado(resultado);
+}

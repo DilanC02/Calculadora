@@ -24,3 +24,12 @@ function multiplicar() {
     const resultado = numero1 * numero2;
     mostrarResultado(resultado);
 }
+function dividir() {
+    const { numero1, numero2 } = obtenerValores();
+    if (numero2 === 0) {
+        mostrarResultado('Error: División por cero');
+    } else {
+        const resultado = numero1 / numero2;
+        mostrarResultado(resultado);
+    }
+}
